@@ -1,0 +1,27 @@
+/* universal seletor*/
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+/* id selector */
+#superheros{
+    background-color: pink;
+   
+}
+.super
+{
+    color: aquamarine;
+    font-weight: 800;
+}
+h1{
+    color: blue;
+    text-decoration:underline;
+}
+input[type="text"]{
+    background-color: beige;
+}
+/*writnig input here is not necessary*/
+[type="password"]{
+    background-color:bisque ;
+}

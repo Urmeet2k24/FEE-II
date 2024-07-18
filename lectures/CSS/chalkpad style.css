@@ -1,0 +1,10 @@
+body{
+    background: url(Images/Chitkara_University_pic.jpg) no-repeat center center fixed;
+    border-top: 6px solid red;
+   
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}

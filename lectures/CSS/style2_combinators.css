@@ -1,0 +1,14 @@
+/* desecdant*/
+ul li a{
+    color: aquamarine;
+    font-size: 20px;
+}
+ol > li {
+    background-color: yellow;
+}
+h3+p{
+    border-top: 2px solid blue;
+}
+div~p {
+    background-color: brown;
+}
