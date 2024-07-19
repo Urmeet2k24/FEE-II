@@ -1,10 +1,38 @@
 body{
-    background: url(Images/Chitkara_University_pic.jpg) no-repeat center center fixed;
+    background: url(https://cuiet.codebrigade.in/images/Chitkara_University_pic.jpg)  no-repeat center center fixed;
     border-top: 6px solid red;
-   
+    background-size: cover;
+   }
+   .container{
+       text-align: center;
+    
+   }
+   .privacy-policy{
+       text-decoration: underline;
+       direction: ltr;
+       text-align: left;
+   }
+   .photo{
+    position: fixed;
+     right: 10px;
+   }
+   .login-form {
+    width: 240px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    height: 560px;
+    position: fixed;
+     right: 250px;
+  }
+  form {
+    direction: ltr;
+    text-align: left;
 }
-*{
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
+.button{
+    background-color: red;
+    cursor: pointer;
+}
+.powered{
+    text-align: left;
 }

@@ -1,87 +1,64 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>CHALKPAD</title>
+    <style>
+    </style>
     <link rel="stylesheet" href="chalkpad style.css">
 </head>
 <body>
-   
-    <table width="990px" align="center" border="0">
-        <tbody>
-            <tr>
-                <td>
-                    <table align="center">
-                        <tbody>
-                            <tr>
-                                <td height="75"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div style="width:685px; float: left">&nbsp;</div>
-                                    <div id="customHeight" style="width:285px; height:530px; padding-top: 0px; background-color: #ffffff; border:2px solid #cccccc; float: left;">
-                                    <form name="loginForm" id="loginForm" method="post" enctype="multipart/form-data" action="https://cce.codebrigade.in/loginManager/checkLogin">
-                                        <table border="0" cellspacing="0" cellpadding="0" width="285px;" align="right" style="float:left">
-                                            <tbody>
-                                                <tr>
-                                                    <td height="20" colspan="2"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" align="center">
-                                                    <image src="https://cce.codebrigade.in//images/logo_337.png"></image></td>
-                                                </tr>
-                                                <tr>
-                                                    <td height="20" colspan="2"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding-left:20px; font-family:arial; font-size:15px;" colspan="2">
-                                                        Username 
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td colspan="2" style="padding-left:20px; padding-top:5px">
-                                                        <input type="text" name="txtUsername" id="txtUsername" style="border:1px solid #7f9db9; height:22px; width:220px" value>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding-left:20px; font-family:arial; font-size:15px;" colspan="2">
-                                                        Password 
-                                                    </td>
-                                                    </tr>
-                                                <tr>
-                                                    <td colspan="2" style="padding-left:20px; padding-top:5px">
-                                                        <input type="password" name="txtPassword" id="txtPassword" style="border:1px solid #7f9db9; height:22px; width:220px" value>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td height="12"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding-left:20px; font-family:arial; font-size:15px;" colspan="2">
-                                                        Session 
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" style="padding-left:20px; padding-top:5px">
-                                                        <select name="txtSession" id="txtSession" style="width: 225px; height:23px; font-size:12px;border:1px solid #7f9db9;" value>
-                                                        <option value>---Select---</option>
-                                                        <opton value="7">July - Dec (2021)</opton>
-                                                        <opton value="8">JanJun2022</opton>
-                                                        <opton value="9">JulDec2022</opton>
-                                                        <opton value="10">JanJun2023</opton>
-                                                        <opton value="11">JulDec2023</opton>
-                                                        <opton value="16">JanJun2024</opton>
-                                                        <opton value="17" selected="true">JulDec</opton>
-                                                        <opton value="18">2025-2026</opton>
-                                                    </select>
-                                                    <input type="hidden" name="txtInstitute" id="txtInstitute" value="1">
-                                                    </td>
-                                                    </tr>
-
-
-
-
+    <div class="photo">
+        <img src="https://cuiet.codebrigade.in/cb_top_right_icon.png" alt="photo">
+    </div>
+    <div class="container">
+    <div class="login-form">
+    <div class="logo">
+        <img src="https://cuiet.codebrigade.in//images/logo_373.png" alt="logo">
+    </div>
+    <br>
+<form>
+   <label for="username">Username</label>&nbsp;&nbsp;&nbsp;
+   <br>
+     <input type="text" id="username">
+     <br>
+     <br>
+      <label for="password">Password</label>
+      <br>
+       <input type="password" id="password">
+       <br>
+       <br>
+     <label for="session">Session</label>
+     <br>
+   <select id="session" name="session">
+  <option value="Jul-Dec2024">Jul-Dec2024</option>
+   <option value="Jul-Dec2022">Jul-Dec2022</option>
+    <option value="JanJun2023">JanJun2023</option>
+    <option value="Jul-DEC2023">Jul-DEC2023</option>
+   <option value="2025-26">2025-26</option>
+    <option value="2027-28">2027-28</option>
+ </select>
+  <br>
+ <br>
+<input type="checkbox" id="remember">
+<label for="remember">Remember Password</label>
+<br>
+<br>
+<img src="https://cuiet.codebrigade.in//images/login_bws_btn.png" alt="sign in">
+</form>
+<div class="privacy-policy">
+    <p>Privacy Policy</p>
+</div>
+<div class="app">
+    <img src="https://cuiet.codebrigade.in/images/apple_store_icon.png" alt="apple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://cuiet.codebrigade.in/images/gplaystore_icon.png" alt="goggle play">
+    <p><b>Mobile App Code : 800002</b></p>
+</div>
+<div class="powered">
+<pre>Powered by  <img src="https://cuiet.codebrigade.in//images/code-brigade-logo-small.png"height="20px" width="90px" alt="code brigade"></pre>
+</div>
+</div>
+</div>
 </body>
 </html>

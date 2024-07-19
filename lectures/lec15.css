@@ -1,0 +1,14 @@
+#container
+{
+    height: 50px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+
+}
+.item {
+    width: 500px;
+    height: 20px;
+    border: 2px solid black;
+    align-content:center;
+}
