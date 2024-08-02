@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+
+<style>
+    section{
+        width: 80vw;
+        margin: 20px auto;
+        display: grid;
+       /* grid-template-columns: 150px 150px 150px;*/
+       /* grid-template-rows: 150px 150px 150px;*/
+        grid-template-rows: repeat(3,300px);
+        gap: 20px 10px;
+        grid-template-rows: repeat(4fr,4fr,4fr,4fr);
+    }
+    div{
+        height: 50px;
+    }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="" style="background-color: lightpink;"></div>
+        <div class="" style="background-color: lightskyblue"></div>
+        <div class="" style="background-color: lightslategray"></div>
+        <div class="" style="background-color: rgb(111, 245, 189)"></div>
+        <div class="" style="background-color:lightcoral"></div>
+    </section>
+</body>
+</html>

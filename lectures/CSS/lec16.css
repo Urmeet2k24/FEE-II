@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    background-color: black;
+    border: 2px solid black;
+    justify-content:center;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    padding-right: 80px;
+    color: #ccc;
+}
+a{
+    color: #ccc;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    align-items: center;
+}
+
+/*section {
+    border: 2px solid #ccc;
+    padding: 1rem;
+}
+h1 {
+    font-size: 3rem;
+}
+/* media quaries
+@media(max-width: 520px)
+{
+    section p{
+        color: antiquewhite;
+    }
+    section{
+        background-color: orange;
+    }
+}
+@media(orientation:landscape){
+    section p{
+        color: brown;
+    }
+    section{
+        background-color: pink;
+    }
+}
+@media(orientation:portrait){
+    section{
+        background-color: aquamarine;
+    }
+}*/

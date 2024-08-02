@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            border: 3px solid black;
+            transition: 1s;
+            transition-duration: 2s;
+            transition-property: background-color ;
+            transition-delay: 2s;
+        }
+        section:hover{
+            border-radius: 50%;
+            background-color: grey;
+        }
+        article{
+            margin: 20px;
+            border: 2px solid black;
+        }
+        article div{
+            height: 50px;
+            width: 50px;
+            border: 30%;
+            margin: 15px;
+            background-color: aquamarine;
+        }
+        article:hover div{
+            width: 150px;
+            padding-left: 150px;
+            margin-left: 50px;
+        }
+        div:nth-of-type(1) {
+            transition-timing-function: linear;
+            transition-delay: 1s;
+        }
+        div:nth-of-type(2) {
+            transition-timing-function: ease;
+            transition-delay: 2s;
+        }
+        div:nth-of-type(3) {
+            transition-timing-function: ease-in;
+            transition-delay: 3s;
+        }
+        div:nth-of-type(4) {
+            transition-timing-function: ease-out;
+            transition-delay: 4s;
+        }
+        div:nth-of-type(5) {
+            transition-timing-function: ease-in-out;
+            transition-delay: 5s;
+        }
+        </style>
+</head>
+<body>
+    <section></section>   
+    <article>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+    
+    </article>
+</body>
+</html>
